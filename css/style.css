@@ -31,6 +31,10 @@ header {
 .sports > div {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
-	height: 75px;
+	height: 125px;
 	vertical-align: center;
+}
+
+.sports > div.selected {
+	border: 3px solid #fa5400;
 }
