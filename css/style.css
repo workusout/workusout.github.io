@@ -1,0 +1,28 @@
+body, html {
+	font-family: 'Helvetica Neue', 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 20px;
+	width: 100%;
+	margin: 10px;
+}
+
+header {
+	border-bottom: 1px solid #ccc;
+}
+
+.sports {
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+.sports > div {
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	height: 75px;
+	vertical-align: center;
+}
