@@ -1,1 +1,1 @@
-var sports=["hiking","cycling","running"];$(document).ready(function(){$(".sports div").on("click",function(){var n=$(this).attr("id");sports.push(n)});var n=function(){var n="../data.json",o=[];return console.log("Loading ...."),$.getJSON(n,function(n){$.each(n,function(n,t){o.push(n+"-"+t)})}),o}});
+var sports=["hiking","cycling","running"];$(document).ready(function(){$(".sports div").on("click",function(){var s=$(this).attr("id");sports.push(s),$(this).toggleClass("selected")})});
