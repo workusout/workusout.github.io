@@ -34,3 +34,19 @@ header {
 	height: 75px;
 	vertical-align: center;
 }
+
+/* --- Results View -- */
+
+.eventResult {
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+.eventTypeIcon {
+	float: left;
+	clear: left;
+}
+
+.resultEventDate {
+	float: left;
+}
