@@ -65,12 +65,13 @@ a:hover {
 
 .eventResult {
 	border: 1px solid #ccc;
-	position: relative;
 }
 
-.eventTypeIcon {
+
+img.typeIcon {
+	height: 100px;
+	width: auto;
 	float: left;
-	clear: left;
 	padding-right: 5%;
 }
 
