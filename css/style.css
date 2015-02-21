@@ -36,14 +36,13 @@ header {
 }
 
 
-a {
+li {
 	letter-spacing: 0px;
 	color: #333;
 	font-size: 14px;
 	padding: 0;
 	cursor: auto;
 	vertical-align: middle
-	font-size: 20px;
 	width: 100%;
 	margin: 10px;
 	font-family: 'Trade';
@@ -54,7 +53,22 @@ a {
 	line-height: 0.84em;
 }
 
-a:hover {
+.navbar-brand {
+	font-size: 20px;
+	cursor: auto;
+	vertical-align: middle
+	width: 100%;
+	margin: 10px;
+	font-family: 'Trade';
+	text-transform: uppercase;
+	word-spacing: -0.05em;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: -0.045em;
+	line-height: 0.84em;
+}
+
+
+li:hover {
 	color: #fa5400;
 }
 .sports > div.selected {
