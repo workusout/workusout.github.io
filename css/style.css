@@ -45,8 +45,10 @@ header {
 .eventTypeIcon {
 	float: left;
 	clear: left;
+	padding-right: 5%;
 }
 
 .resultEventDate {
 	float: left;
+	padding-right: 5%;
 }
