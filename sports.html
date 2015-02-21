@@ -2,29 +2,77 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Work Us Out</title>
+    <title>WORK US OUT</title>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WORK US OUT</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Upcoming Events <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Your Profile</a></li>
+    </ul>
+    </li>
+    </ul>
+</nav>
+
 <body>
 
     <header>
-        <h1/>
+        <h1>
             Pick your favorite sports:
         </h1>
     </header>
 
     <div class="container-fluid">
         <div class="row sports">
-            <div class="col-xs-4 col-md-4">RUNNING</div>
-            <div class="col-xs-4 col-md-4">BIKING</div>
-            <div class="col-xs-4 col-md-4">HIKING</div>
+            <div id="running" class="col-xs-6 col-md-6">
+                <img src="./images/running.png" width="80">
+                <p>RUNNING</p>
+            </div>
+            <div id="hiking" class="col-xs-6 col-md-6">
+                <img src="./images/hiking.png" width="80">
+                <p>HIKING</p>
+            </div>
+        </div>
+        <div class="row sports">
+            <div id="cycling" class="col-xs-6 col-md-6">
+                <img src="./images/cycling.png" width="80">
+                <p>BIKING</p></div>
+            <div id="weights" class="col-xs-6 col-md-6">
+                <img src="./images/weights.png" width="80">
+                <p>WEIGHTS</p>
+            </div>
+        </div>
+        <div class="row sports">
+            <div id="soccer" class="col-xs-6 col-md-6">
+                <img src="./images/soccer.png" width="80">
+                <p>SOCCER</p>
+            </div>
+            <div id="kayaking" class="col-xs-6 col-md-6">
+                <img src="./images/kayaking.png" width="80">
+                <p>KAYAKING</p>
+            </div>
+        </div>
+        <div class="row sports">
+            <div id="tennis" class="col-xs-6 col-md-6">
+                <img src="./images/tennis.png" width="80">
+                <p>TENNIS</p></div>
+            <div id="boxing" class="col-xs-6 col-md-6">
+                <img src="./images/boxing.png" width="80">
+                <p>BOXING</p>
+            </div>
         </div>
     </div>
-
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
 </body>
 
 </html>

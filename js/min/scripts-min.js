@@ -1,0 +1,1 @@
+var sports=["hiking","cycling","running"];$(document).ready(function(){$(".sports div").on("click",function(){var s=$(this).attr("id");sports.push(s),$(this).toggleClass("selected")})});

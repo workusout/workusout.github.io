@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Trade';
+  src: url('../fonts/TradeGothicforNike365-BdCn.ttf') format('truetype');
+}
+
+
 body, html {
 	font-family: 'Helvetica Neue', 'Arial', sans-serif;
 	margin: 0;
@@ -8,6 +14,8 @@ h1 {
 	font-size: 20px;
 	width: 100%;
 	margin: 10px;
+	font-family: 'Trade';
+	text-transform: uppercase;
 }
 
 header {
@@ -17,12 +25,55 @@ header {
 .sports {
 	text-align: center;
 	font-weight: bold;
-	
+	font-family: 'Trade';
 }
 
 .sports > div {
 	border-bottom: 1px solid #ccc;
 	border-right: 1px solid #ccc;
-	height: 75px;
+	height: 125px;
 	vertical-align: center;
 }
+
+
+a {
+	letter-spacing: 0px;
+	color: #333;
+	font-size: 14px;
+	padding: 0;
+	cursor: auto;
+	vertical-align: middle
+	font-size: 20px;
+	width: 100%;
+	margin: 10px;
+	font-family: 'Trade';
+	text-transform: uppercase;
+	word-spacing: -0.05em;
+	-webkit-font-smoothing: antialiased;
+	letter-spacing: -0.045em;
+	line-height: 0.84em;
+}
+
+a:hover {
+	color: #fa5400;
+}
+.sports > div.selected {
+	border: 3px solid #fa5400;
+}
+
+/* --- Results View -- */
+
+.eventResult {
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+.eventTypeIcon {
+	float: left;
+	clear: left;
+}
+
+.resultEventDate {
+	float: left;
+}
+
