@@ -93,3 +93,24 @@ li:hover {
 	padding-right: 5%;
 }
 
+.wrapper {
+	width: 90%;
+	margin: 0 5%;
+}
+
+.wrapper p, .wrapper button, .wrapper input {
+	margin: 5px auto;
+}
+
+.find {
+	width: 80%;
+	font-size: 18px;
+	margin: 5px 10%;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #000;
+	border-radius: 3px;
+	display: block;
+	padding: 10px;
+	text-align: center;
+}

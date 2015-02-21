@@ -2,32 +2,40 @@
 <html>
 <head>
 	<title>Work Us Out</title>
-	<link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href='css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<h1>Welcome to Work Us Out</h1>
 	<h3>Find a buddy to work out with</h3>
 
-	<!-- distance radius picker -->
-	<p>How far are you willing to travel?</p>
-	<form class="btn-group" role="group" id="distance">
-	  <button type="button" class="btn btn-default">5</button>
-	  <button type="button" class="btn btn-default">10</button>
-	  <button type="button" class="btn btn-default">25</button>
-	  <button type="button" class="btn btn-default">50</button>
-	  <button type="button" class="btn btn-default">100</button>
-	</form>
-	<br>
+	<div class="wrapper">
+		<!-- distance radius picker -->
+		<p>How far are you willing to travel?</p>
+		<form class="btn-group" role="group" id="distance">
+		  <button type="button" class="btn btn-default">5</button>
+		  <button type="button" class="btn btn-default">10</button>
+		  <button type="button" class="btn btn-default">25</button>
+		  <button type="button" class="btn btn-default">50</button>
+		  <button type="button" class="btn btn-default">100</button>
+		</form>
+		<br>
 
-	<!-- fn to set userLoc to Portland, OR / navigate user to next page-->
-	<button class="btn btn-default" onclick="getLocation()">Current Location</button>
+		<!-- fn to set userLoc to Portland, OR / navigate user to next page-->
+		<button class="btn btn-default" onclick="getLocation()">Current Location</button>
 
-	<!-- button to accept user input location / navigate user to next page -->
-	<form>
-	<input id="zipCode" type="text" name="zipCode">
-	<br/>
-	<input class="btn btn-default" type="submit" value="Use This Zip" onclick="setZip(zipValue)">
-	</form>
+		<!-- button to accept user input location / navigate user to next page -->
+		<form>
+		<input id="zipCode" type="text" name="zipCode">
+		<br/>
+		<a href="./sports.html"><input class="btn btn-default" value="Use This Zip" onclick="setZip(zipValue)">
+		</form></a>
+	</div>
+
+	
 
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
