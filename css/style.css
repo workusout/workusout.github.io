@@ -38,3 +38,19 @@ header {
 .sports > div.selected {
 	border: 3px solid #fa5400;
 }
+
+/* --- Results View -- */
+
+.eventResult {
+	border: 1px solid #ccc;
+	position: relative;
+}
+
+.eventTypeIcon {
+	float: left;
+	clear: left;
+}
+
+.resultEventDate {
+	float: left;
+}
